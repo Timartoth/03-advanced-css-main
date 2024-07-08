@@ -1,0 +1,70 @@
+:root {
+  --zero: 0px;
+  --default-padding: 20px;
+  --light-color: #000000;
+}
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #5b8e7d;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+p {
+  padding: var(--zero) var(--default-padding) var(--zero) var(--default-padding);
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 0.25em 1em;
+  color: #00bd9d;
+  background: #fffbfa;
+}
+
+header {
+  --light-color: #ffffff;
+  background: #5b8e7d;
+  color: var(--light-color);
+  padding: 150px 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.first-section {
+  background: #bc4b51;
+  padding: 150px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.second-section {
+  background: #fffbfa;
+  padding: 150px 0;
+  color: #5b8e7d;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}

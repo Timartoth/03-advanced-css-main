@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  min-height: 100px;
+  background-color: #262322;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.light-text {
+  color: #eecece;
+}
+
+.dark-text {
+  color: #212020;
+}
+
+main {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/products/bag.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-wrapper {
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-box {
+  width: 100%;
+  min-height: 450px;
+  margin: 0.5rem;
+  border: 1px solid black;
+  background-color: #c97d60;
+}
+
+.img-holder {
+  position: relative;
+  padding: 10px;
+  max-height: 200px;
+}
+
+.img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 190px;
+}
+
+.img-holder h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+}
+
+.content-box p {
+  text-align: justify;
+  padding: 10px;
+}
+
+.btn-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-holder button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2a2c24;
+}
+
+.btn-holder button:hover {
+  background-color: #2f0d0d;
+}
+
+.btn-holder button a {
+  text-decoration: none;
+}
+
+footer {
+  min-height: 80px;
+  background-color: #262322;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

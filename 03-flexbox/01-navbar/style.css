@@ -1,0 +1,50 @@
+ {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  background-color: rgb(107, 170, 142);
+  height: 40px;
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(233, 233, 160);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    flex-direction: column;
+  }
+}
+@media screen and (orientation: portrait) {
+  a {
+    color: yellow;
+  }
+}
+@media screen and (orientation: landscape) {
+  a {
+    color: purple;
+  }
+}

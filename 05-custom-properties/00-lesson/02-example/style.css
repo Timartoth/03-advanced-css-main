@@ -1,0 +1,39 @@
+:root {
+  --primary-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  --secondary-box-shadow: 0 6px 20px 0 rgba(221, 221, 42, 0.19);
+  --general-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(221, 221, 42, 0.19);
+  --primary-color: #a053be;
+  /* --general-margin: 10px; */
+}
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color, red);
+}
+
+div {
+  padding: 20px;
+  width: 300px;
+  margin: 100px auto;
+  box-shadow: var(--general-box-shadow);
+}
+
+p {
+  padding: 20px;
+  margin: var(--general-margin, 20px);
+  color: #456990;
+  background-color: #f45d01;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(221, 221, 42, 0.19);
+}

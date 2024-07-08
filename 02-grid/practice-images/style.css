@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  border-radius: 10px;
+  box-shadow: 7px 5px 2px -3px gray;
+  border: 1px solid grey;
+  border-right: 0px;
+  gap: 1px;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.green {
+  background-color: #008e00;
+}
+
+.blue {
+  background-color: #6100ff;
+}
+
+.yellow {
+  background-color: #f1ff00;
+}
+
+.white {
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.orange {
+  background-color: #ffaa00;
+}
+
+.box {
+  border-radius: 10px;
+  margin-right: 1px;
+}

@@ -1,0 +1,50 @@
+/* div {
+  /* height: 400px;
+  background: rgb(32, 233, 14);
+  background: radial-gradient(
+    circle,
+    rgba(32, 233, 14, 1) 0%,
+    rgba(103, 240, 91, 1) 16%,
+    rgba(170, 246, 163, 1) 31%,
+    rgba(228, 252, 226, 1) 44%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 0, 0, 1) 100%
+  ); /
+.container {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid black;
+  box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.4);
+
+  animation: container-animation 2s ease-in 100ms 3 alternate;
+}
+
+.container img {
+  display: block;
+  padding: 15px;
+  width: 90%;
+}
+
+.container p {
+  text-align: center;
+  text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.container:hover {
+  / transform: translate(100px, 200px) scale(1.2); */
+}
+
+@keyframes container-animation {
+  0% {
+    transform: translate(-100px) rotate(0.5turn);
+  }
+  25% {
+    transform: translate(-200px) rotate(0.3turn);
+  }
+  50% {
+    transform: translate(100px, -100px) rotate(90deg);
+  }
+  100% {
+    transform: translate(100px, 400px);
+  }
+}

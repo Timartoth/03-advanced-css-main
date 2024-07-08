@@ -1,0 +1,55 @@
+html {
+  --color1: #7368b0;
+  --color2: #c0918f;
+  --color3: #492240;
+}
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  color: var(--color1);
+  background-color: var(--color2);
+}
+
+main {
+  background-color: var(--color3);
+  padding: 20px;
+  margin: 100px 300px;
+}
+
+h3 {
+  --color4: #12f2f2;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--color4);
+  color: var(--color4);
+  text-align: center;
+}
+
+.test-p {
+  --color2: red;
+  color: var(--color2);
+}
+
+p {
+  background-color: var(--color3);
+  margin: 15px 0;
+}
+
+button {
+  background-color: var(--color3);
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid var(--color2);
+}
+
+#center {
+  text-align: center;
+}
